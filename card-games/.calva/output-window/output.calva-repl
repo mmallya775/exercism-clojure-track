@@ -1,0 +1,12 @@
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:577).
+; Don't know how to create ISeq from: java.lang.Long
+clj꞉card-games꞉> 
+(1 2 2 4 5)
+clj꞉card-games꞉> 
+#'card-games/maybe-double-last
+clj꞉card-games꞉> 
+(5 9 22)
+clj꞉card-games꞉> 
+(5 9 10)
+clj꞉card-games꞉> 
+; nREPL Connection was closed
